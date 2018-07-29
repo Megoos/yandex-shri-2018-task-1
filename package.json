@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "lint": "node ./node_modules/semistandard/bin/cmd.js --fix"
+    "lint": "node ./node_modules/semistandard/bin/cmd.js"
   },
   "devDependencies": {
     "faker": "^4.1.0",
