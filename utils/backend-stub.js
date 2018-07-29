@@ -3,7 +3,7 @@ const { generateData, generateDetails } = require('./generate-data');
 const data = generateData();
 const cache = {};
 
-exports.initBackendStub = function(app) {
+exports.initBackendStub = function (app) {
   app.get('/api/stations', (req, res) => {
     res.json(data);
   });
